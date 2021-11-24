@@ -1,0 +1,106 @@
+
+.zombie{
+ background-image: url(./imagenes/zombie5.png);
+}
+
+.background{
+  background-color: black;
+}
+
+.titulos{
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+h1{
+  color: greenyellow;
+  font-family: fantasy;
+  padding-top: 30px;
+}
+
+h2{
+  color: red;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 80px !important;
+  padding-top: 10px;
+  
+}
+
+h3{
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Road Rage', cursive;
+  font-size: 60px  !important;
+}
+
+h5{
+  color: white;
+  font-size: 35px !important;
+  font-family: 'Barlow', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Road Rage', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+
+.delivery{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+
+.titulos{
+  background-image: url(./imagenes/warning.jpg);
+background-repeat: no-repeat;
+height: 300px;
+padding-top: 40px;
+}
+
+.tabla{
+  color: white;
+  font-size: 20px;
+  font-family: 'Road Rage', cursive;
+font-family: 'Roboto Mono', monospace;
+}
+
+.tabla1{
+  font-family: 'Road Rage', cursive;
+font-family: 'Roboto Mono', monospace;
+font-size: 18px;
+color: white;
+}
+
+.img{
+  margin-top: 55px;
+}
+
+.boton-comprar{
+  background-color: chartreuse !important;
+  color: black !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
+
+.precio{
+  color: white;
+  font-size: 40px;
+}
+
+/* FLEX DE BEBIDAS */
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.row > div{
+  border: 2px solid rgb(49, 29, 49);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 15px;
+}
